@@ -5852,7 +5852,7 @@ gatsby-plugin-manifest@^2.2.0, gatsby-plugin-manifest@^2.2.1:
     semver "^5.6.0"
     sharp "^0.22.1"
 
-gatsby-plugin-offline@^2.2.0:
+gatsby-plugin-offline@^2.2.0, gatsby-plugin-offline@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-2.2.1.tgz#98ab98c42f1c54b777468179633916f83281b8d4"
   integrity sha512-vPTiHSU5/XcLXGBhbnLnaKO/NPysYbBcH535lL4wmqaK78gubth0RmpNovXZwHkf7E89wMLl8ICFFRwV+T/xjA==
@@ -5922,7 +5922,7 @@ gatsby-react-router-scroll@^2.1.1:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-remark-prismjs@^3.3.0:
+gatsby-remark-prismjs@^3.3.0, gatsby-remark-prismjs@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.3.1.tgz#012ed64d577b9c9a1dce209ddc8cceb58ed09de9"
   integrity sha512-V0rzHqmVgzJX6WSse4d29wfSv4Y8zm1Qfl3xwbMngiSENZ8gLvCiMDKZGrV8QcwJNyUyDsBDCNakGKyCvTu5EA==
@@ -12825,7 +12825,7 @@ text-table@0.2.0, text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-theme-ui@^0.2.0:
+theme-ui@^0.2.0, theme-ui@^0.2.5:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.2.5.tgz#f1eceb415317f44ab8e52ae7ccba83b8c6d3c359"
   integrity sha512-hFTOi0nDNB8ZejSg7zKQr2AKAcYv+nbbxE1oU9T/Is56tFvBgFDxc5DXrO82CayOAdAx3LN6iCsFzh/20f5HcQ==

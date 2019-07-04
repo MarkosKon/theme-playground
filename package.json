@@ -6,7 +6,7 @@
     "examples/**"
   ],
   "scripts": {
-    "start": "yarn workspace gatsby-starter-theme-ui develop",
+    "start": "yarn workspace use-theme-hello-world develop",
     "lint": "eslint --ext js,jsx examples packages",
     "format": "yarn lint --fix"
   },
