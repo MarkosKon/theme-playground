@@ -1,0 +1,44 @@
+{
+  "name": "workspace-boilerplate",
+  "private": true,
+  "workspaces": [
+    "packages/**",
+    "examples/**"
+  ],
+  "scripts": {
+    "start": "yarn workspace gatsby-starter-theme-ui develop",
+    "lint": "eslint --ext js,jsx examples packages",
+    "format": "yarn lint --fix"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-cypress": "^2.2.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.0.2",
+    "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": [
+        "lint-staged"
+      ]
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{css,json,svg,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
