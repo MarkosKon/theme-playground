@@ -12,7 +12,7 @@
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sharp": "^2.2.2",
     "gatsby-source-filesystem": "^2.1.2",
-    "gatsby-theme-ui": "*",
+    "@affectionatedoor/gatsby-theme-ui": "*",
     "gatsby-transformer-sharp": "^2.2.1",
     "lodash.merge": "^4.6.1",
     "prop-types": "^15.7.2",
