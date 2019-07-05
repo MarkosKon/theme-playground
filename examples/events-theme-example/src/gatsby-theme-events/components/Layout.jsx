@@ -1,3 +1,3 @@
-import Layout from "gatsby-theme-ui/src/components/Layout";
+import Layout from "@affectionatedoor/gatsby-theme-ui/src/components/Layout";
 
 export default Layout;

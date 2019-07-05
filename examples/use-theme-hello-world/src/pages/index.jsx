@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx, Styled } from "theme-ui";
-import Layout from "gatsby-theme-ui/src/components/Layout";
-import Link from "gatsby-theme-ui/src/components/Link";
-import SEO from "gatsby-theme-ui/src/components/SEO";
+import Layout from "@affectionatedoor/gatsby-theme-ui/src/components/Layout";
+import Link from "@affectionatedoor/gatsby-theme-ui/src/components/Link";
+import SEO from "@affectionatedoor/gatsby-theme-ui/src/components/SEO";
 
 export default () => (
   <Layout>

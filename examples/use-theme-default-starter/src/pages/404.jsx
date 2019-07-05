@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Styled } from "theme-ui";
-import Layout from "gatsby-theme-ui/src/components/Layout";
-import SEO from "gatsby-theme-ui/src/components/SEO";
+import Layout from "@affectionatedoor/gatsby-theme-ui/src/components/Layout";
+import SEO from "@affectionatedoor/gatsby-theme-ui/src/components/SEO";
 
 const NotFoundPage = () => (
   <Layout>

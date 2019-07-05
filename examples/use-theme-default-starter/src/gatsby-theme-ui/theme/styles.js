@@ -1,5 +1,5 @@
 import merge from "lodash.merge";
-import styles from "gatsby-theme-ui/src/theme/styles";
+import styles from "@affectionatedoor/gatsby-theme-ui/src/theme/styles";
 
 export default merge({}, styles, {
   h1: {

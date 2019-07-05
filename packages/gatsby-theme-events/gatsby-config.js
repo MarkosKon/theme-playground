@@ -1,6 +1,7 @@
 // const path = require("path");
 
-module.exports = ({ contentPath = "data", basePath = "/" }) => ({
+// module.exports = ({ contentPath = "data", basePath = "/" }) => ({
+module.exports = ({ contentPath = "data" }) => ({
   plugins: [
     {
       resolve: "gatsby-source-filesystem",

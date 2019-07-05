@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    "gatsby-theme-ui",
+    "@affectionatedoor/gatsby-theme-ui",
     {
       resolve: "gatsby-theme-events",
       options: {

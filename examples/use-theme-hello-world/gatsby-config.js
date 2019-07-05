@@ -1,3 +1,3 @@
 module.exports = {
-  plugins: ["gatsby-theme-ui"]
+  plugins: ["@affectionatedoor/gatsby-theme-ui"]
 };
