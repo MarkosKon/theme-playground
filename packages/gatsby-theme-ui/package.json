@@ -5,6 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "gatsby": "^2.13.3",
+    "mkdirp": "^0.5.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
