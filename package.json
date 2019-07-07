@@ -12,7 +12,8 @@
     "we3": "yarn workspace use-theme-default-starter",
     "we4": "yarn workspace use-theme-hello-world",
     "we5": "yarn workspace events-theme-example",
-    "we6": "yarn workspace starter-copy"
+    "we6": "yarn workspace starter-copy",
+    "we7": "yarn workspace mdx-custom-path"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
