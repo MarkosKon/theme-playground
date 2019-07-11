@@ -1,5 +1,13 @@
 # gatsby-theme-ui
 
+> A basic configuration of theme-ui as a Gatsby theme. Also includes some useful components. [In this link you can find examples.](https://github.com/MarkosKon/theme-playground/tree/master/examples/using-gatsby-theme-ui)
+
+**Table of contents**
+
+- [Theme options](#Theme-options)
+- [Add fonts](#Add-fonts)
+- [Change colors](#Change-colors)
+
 ## Theme options
 
 | Name           | Description                                                 | Default           |
@@ -33,3 +41,7 @@ export default {
 ```js
 import "typeface-lora";
 ```
+
+## Change colors
+
+If you want to change the colors shadow the `src/theme/colors.css` **not** the `src/theme/colors.js`. If you want to rename/add new colors or modes, you'll have to shadow both.
