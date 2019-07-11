@@ -45,5 +45,9 @@
     "sal.js": "^0.6.1",
     "slick-carousel": "^1.8.1",
     "theme-ui": "^0.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MarkosKon/theme-playground.git"
   }
 }
