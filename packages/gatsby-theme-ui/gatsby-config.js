@@ -10,10 +10,23 @@ const siteMetadata = {
   author: `Mark`
 };
 
+const baseGatsbyMdxConfig = {
+  resolve: "gatsby-mdx",
+  options: {
+    defaultLayouts: {
+      default: require.resolve("./src/components/Layout.jsx")
+    },
+    extensions: [".mdx", ".md"],
+    remarkPlugins,
+    gatsbyRemarkPlugins: ["gatsby-remark-prismjs"]
+  }
+};
+
 module.exports = ({
   imageDirectory = "src/images",
   pageDirectory = "src/pages",
-  logoFilename = "gatsby-icon.png"
+  logoFilename = "gatsby-icon.png",
+  gatsbyMdxConfig = baseGatsbyMdxConfig
 }) => {
   const logoUserPath = path.join(imageDirectory, logoFilename);
   const logoPath = fs.existsSync(logoUserPath)
@@ -26,17 +39,7 @@ module.exports = ({
       `gatsby-plugin-webpack-size`,
       `gatsby-plugin-emotion`,
       "gatsby-plugin-catch-links",
-      {
-        resolve: "gatsby-mdx",
-        options: {
-          defaultLayouts: {
-            default: require.resolve("./src/components/Layout.jsx")
-          },
-          extensions: [".mdx", ".md"],
-          remarkPlugins,
-          gatsbyRemarkPlugins: ["gatsby-remark-prismjs"]
-        }
-      },
+      gatsbyMdxConfig,
       {
         resolve: `gatsby-source-filesystem`,
         options: {

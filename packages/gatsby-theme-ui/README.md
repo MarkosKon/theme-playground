@@ -10,11 +10,12 @@
 
 ## Theme options
 
-| Name           | Description                                                 | Default           |
-| -------------- | ----------------------------------------------------------- | ----------------- |
-| imageDirectory | Images for sharp                                            | `src/images`      |
-| pageDirectory  | This exists to make mdx files available to GraphQL queries. | `src/pages`       |
-| logoFilename   | Place the logo inside the `imageDirectory`.                 | `gatsby-icon.png` |
+| Name            | Description                                                                           | Type   | Default                                      |
+| --------------- | ------------------------------------------------------------------------------------- | ------ | -------------------------------------------- |
+| imageDirectory  | Images for sharp                                                                      | string | `src/images`                                 |
+| pageDirectory   | This exists to make mdx files available to GraphQL queries.                           | string | `src/pages`                                  |
+| logoFilename    | Place the logo inside the `imageDirectory`.                                           | string | `gatsby-icon.png`                            |
+| gatsbyMdxConfig | You can't configure gatsby-mdx multiple times so with this option you can override it | object | See `baseGatsbyMdxConfig` in `gatsby-config` |
 
 ## Add fonts
 
