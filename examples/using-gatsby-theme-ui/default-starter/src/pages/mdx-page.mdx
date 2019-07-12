@@ -2,15 +2,25 @@
 
 Hello World!
 
+## Headings
+
+These are the headings you can use:
+
+# Heading 1
+
 ## Heading 2
 
 ### Heading 3
 
 #### Heading 4
 
+##### Heading 5
+
+###### Heading 6
+
 ## Code block
 
-This is a code block
+This is a code block for JSX:
 
 ```jsx
 // comment
@@ -21,6 +31,50 @@ export const Component = () => <div>Hi</div>;
 
 ## Import component
 
-import Button from "@affectionatedoor/gatsby-theme-ui/src/components/Button";
+### Box + Button
 
-<Button>Click me</Button>
+Let's import and render a `Button` inside a `Box` component:
+
+import Button from "@affectionatedoor/gatsby-theme-ui/src/components/Button";
+import { Box } from "@affectionatedoor/gatsby-theme-ui/src/components/EmotionInMDX";
+
+<Box sx={{ p: 4, bg: "mute" }}>
+  <Button sx={{ bg: "secondary", color: "white" }}>Click me</Button>
+</Box>
+
+This is the source code:
+
+```jsx
+import Button from "@affectionatedoor/gatsby-theme-ui/src/components/Button";
+import { Box } from "theme-ui";
+
+<Box sx={{ p: 4, bg: "mute" }}>
+  <Button sx={{ bg: "secondary", color: "white" }}>Click me</Button>
+</Box>;
+```
+
+### Centered + Link
+
+Let's import and render a `Link` component inside a `Centered` component:
+
+import Link from "@affectionatedoor/gatsby-theme-ui/src/components/Link";
+import Centered from "@affectionatedoor/gatsby-theme-ui/src/components/Centered";
+
+<Centered sx={{ p: 3, bg: "mute", color: "bg" }}>
+  <Link to="/" sx={{ p: 2 }}>
+    Go to homepage
+  </Link>
+</Centered>
+
+Source code:
+
+```jsx
+import Link from "@affectionatedoor/gatsby-theme-ui/src/components/Link";
+import Centered from "@affectionatedoor/gatsby-theme-ui/src/components/Centered";
+
+<Centered sx={{ p: 3, bg: "mute", color: "bg" }}>
+  <Link to="/" sx={{ p: 2 }}>
+    Go to homepage
+  </Link>
+</Centered>;
+```

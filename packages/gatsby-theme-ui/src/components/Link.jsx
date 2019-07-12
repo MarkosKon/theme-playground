@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import { Link as GatsbyLink } from "gatsby";
 
-export default props => (
-  <Link
-    {...props}
+const Link = ({ sx, ...restProps }) => (
+  <GatsbyLink
     sx={{
       display: "inline-block",
       color: "primary",
@@ -13,7 +13,16 @@ export default props => (
       "&:focus": {
         outline: "1px solid transparent",
         boxShadow: theme => `0px 0px 0px 2px ${theme.colors.accent}`
-      }
+      },
+      ...sx
     }}
+    {...restProps}
   />
 );
+
+Link.propTypes = {
+  // eslint-disable-next-line
+  sx: PropTypes.object
+};
+
+export default Link;

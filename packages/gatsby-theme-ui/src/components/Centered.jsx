@@ -1,15 +1,24 @@
 /** @jsx jsx */
 import { jsx, Box } from "theme-ui";
+import PropTypes from "prop-types";
 
-export default props => (
+const Centered = ({ sx, ...restProps }) => (
   <Box
     sx={{
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
       flexDirection: "column",
-      height: "100%"
+      height: "100%",
+      ...sx
     }}
-    {...props}
+    {...restProps}
   />
 );
+
+Centered.propTypes = {
+  // eslint-disable-next-line
+  sx: PropTypes.object
+};
+
+export default Centered;
