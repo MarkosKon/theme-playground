@@ -2,14 +2,12 @@
 import PropTypes from "prop-types";
 import { jsx, Box } from "theme-ui";
 import { graphql } from "gatsby";
-import MDXRenderer from "gatsby-mdx/mdx-renderer";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 import Layout from "@affectionatedoor/gatsby-theme-ui/src/components/Layout";
 
 const PostTemplate = ({
   data: {
-    mdx: {
-      code: { body }
-    }
+    mdx: { body }
   }
 }) => {
   return (
@@ -24,9 +22,7 @@ const PostTemplate = ({
 PostTemplate.propTypes = {
   data: PropTypes.shape({
     mdx: PropTypes.shape({
-      code: PropTypes.shape({
-        body: PropTypes.string.isRequired
-      })
+      body: PropTypes.string.isRequired
     })
   }).isRequired
 };
@@ -35,9 +31,7 @@ export const postTemplateQuey = graphql`
   query PostTemplateQuey($id: String) {
     mdx(id: { eq: $id }) {
       id
-      code {
-        body
-      }
+      body
     }
   }
 `;

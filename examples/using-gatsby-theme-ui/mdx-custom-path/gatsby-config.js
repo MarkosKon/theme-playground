@@ -4,7 +4,7 @@ module.exports = {
       resolve: "@affectionatedoor/gatsby-theme-ui",
       options: {
         //   gatsbyMdxConfig: {
-        //     resolve: `gatsby-mdx`,
+        //     resolve: `gatsby-plugin-mdx`,
         //     options: {
         //       extensions: [`.mdx`, `.md`],
         //       defaultLayouts: {

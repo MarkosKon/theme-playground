@@ -11,7 +11,7 @@ const siteMetadata = {
 };
 
 const baseGatsbyMdxConfig = {
-  resolve: "gatsby-mdx",
+  resolve: "gatsby-plugin-mdx",
   options: {
     defaultLayouts: {
       default: require.resolve("./src/components/Layout.jsx")
