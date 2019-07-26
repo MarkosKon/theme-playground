@@ -5,6 +5,7 @@ import prism from "./prism";
 import { textStyles } from "./variants";
 
 export default {
+  useCustomProperties: true,
   fonts,
   initialColorMode: "light",
   colors,

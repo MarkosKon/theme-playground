@@ -4,7 +4,6 @@ import { Global, css } from "@emotion/core";
 
 import theme from "./theme";
 
-import "./theme/colors.css";
 import "normalize.css";
 
 // eslint-disable-next-line react/prop-types

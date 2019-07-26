@@ -10,11 +10,11 @@
 
 ## Theme options
 
-| Name            | Description                                                                           | Type   | Default                                      |
-| --------------- | ------------------------------------------------------------------------------------- | ------ | -------------------------------------------- |
-| imageDirectory  | Images for sharp                                                                      | string | `src/images`                                 |
-| pageDirectory   | This exists to make mdx files available to GraphQL queries.                           | string | `src/pages`                                  |
-| logoFilename    | Place the logo inside the `imageDirectory`.                                           | string | `gatsby-icon.png`                            |
+| Name            | Description                                                                                  | Type   | Default                                      |
+| --------------- | -------------------------------------------------------------------------------------------- | ------ | -------------------------------------------- |
+| imageDirectory  | Images for sharp                                                                             | string | `src/images`                                 |
+| pageDirectory   | This exists to make mdx files available to GraphQL queries.                                  | string | `src/pages`                                  |
+| logoFilename    | Place the logo inside the `imageDirectory`.                                                  | string | `gatsby-icon.png`                            |
 | gatsbyMdxConfig | You can't configure gatsby-plugin-mdx multiple times so with this option you can override it | object | See `baseGatsbyMdxConfig` in `gatsby-config` |
 
 ## Add fonts
@@ -45,4 +45,4 @@ import "typeface-lora";
 
 ## Change colors
 
-If you want to change the colors shadow the `src/theme/colors.css` **not** the `src/theme/colors.js`. If you want to rename/add new colors or modes, you'll have to shadow both.
+If you want to change the colors or add a new color mode, shadow the `src/theme/colors.js` file.
