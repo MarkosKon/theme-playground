@@ -10,7 +10,6 @@ const BgImage = ({
   mobileHeight,
   overlayColor,
   children,
-  className,
   ...restProps
 }) => (
   <div sx={{ position: "relative", bg: overlayColor }}>
@@ -35,7 +34,6 @@ const BgImage = ({
       }}
     />
     <div
-      className={className}
       sx={{ position: "absolute", top: "0", height: "100%", width: "100%" }}
       {...restProps}
     >
@@ -51,15 +49,13 @@ BgImage.propTypes = {
   height: PropTypes.string,
   mobileHeight: PropTypes.string,
   overlayColor: PropTypes.string,
-  children: PropTypes.node,
-  className: PropTypes.string
+  children: PropTypes.node
 };
 BgImage.defaultProps = {
   height: null,
   mobileHeight: null,
   overlayColor: "transparent",
-  children: null,
-  className: null
+  children: null
 };
 
 export default BgImage;
