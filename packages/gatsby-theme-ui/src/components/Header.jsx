@@ -1,36 +1,34 @@
 /** @jsx jsx */
-import { jsx, Box } from "theme-ui";
+import { jsx, Flex } from "theme-ui";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const Header = ({ siteTitle }) => (
-  <header
+  <Flex
+    as="header"
     sx={{
+      alignItems: "center",
       backgroundColor: "primary",
-      color: "background"
+      color: "background",
+      py: 3,
+      px: 4
     }}
   >
-    <Box
+    <Link
+      to="/"
       sx={{
-        m: "0 auto",
-        p: "1.45rem 1.0875rem",
-        maxWidth: "960px"
+        fontFamily: "heading",
+        fontWeight: "heading",
+        fontSize: 40,
+        color: "background",
+        textDecoration: "none"
       }}
     >
-      <Link
-        to="/"
-        sx={{
-          fontFamily: "heading",
-          fontWeight: "heading",
-          fontSize: 40,
-          color: "background",
-          textDecoration: "none"
-        }}
-      >
-        {siteTitle}
-      </Link>
-    </Box>
-  </header>
+      {siteTitle}
+    </Link>
+    <ThemeSwitcher sx={{ ml: "auto" }} />
+  </Flex>
 );
 
 Header.propTypes = {

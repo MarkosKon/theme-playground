@@ -5,7 +5,6 @@ import { useStaticQuery, graphql } from "gatsby";
 import SkipLink from "./SkipLink";
 
 import Header from "./Header";
-import ThemeSwitcher from "./ThemeSwitcher";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -21,7 +20,6 @@ const Layout = ({ children }) => {
     <Styled.root>
       <SkipLink>Skip to content</SkipLink>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <ThemeSwitcher />
       <Main sx={{ minHeight: "76vh" }}>
         <Container id="content">{children}</Container>
       </Main>
