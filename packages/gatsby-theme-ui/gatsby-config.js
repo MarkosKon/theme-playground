@@ -5,8 +5,8 @@ const remarkSlug = require("remark-slug");
 const remarkPlugins = [remarkSlug];
 
 const siteMetadata = {
-  title: `gatsby-theme-ui`,
-  description: `Gatsby theme ui`,
+  title: `Theme UI`,
+  description: `Gatsby Theme UI`,
   author: `Mark`
 };
 
@@ -64,17 +64,14 @@ module.exports = ({
         resolve: `gatsby-plugin-manifest`,
         options: {
           name: siteMetadata.name,
-          short_name: `theme-ui`,
+          short_name: `Theme UI`,
           start_url: `/`,
           background_color: `#663399`,
           theme_color: `#663399`,
-          display: `minimal-ui`,
+          display: `Gatsby Theme UI`,
           icon: logoPath
         }
       }
-      // this (optional) plugin enables Progressive Web App + Offline functionality
-      // To learn more, visit: https://gatsby.dev/offline
-      // `gatsby-plugin-offline`,
     ]
   };
 };
