@@ -14,13 +14,13 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "gatsby": "^2.13.3",
     "@affectionatedoor/gatsby-theme-ui": "*",
+    "gatsby": "^2.13.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "theme-ui": "^0.2.5",
     "typeface-lora": "^0.0.72",
-    "typeface-oswald": "^0.0.54"
+    "typeface-oswald": "^0.0.75"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
