@@ -1,1 +1,1 @@
-export { wrapRootElement } from "./src/rootElement";
+import "./src/styles/global.css";

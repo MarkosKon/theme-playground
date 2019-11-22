@@ -1,6 +1,6 @@
 {
   "name": "@affectionatedoor/gatsby-theme-ui",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
@@ -31,11 +31,11 @@
     "gatsby-plugin-offline": "^3.0.22",
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sharp": "^2.2.2",
+    "gatsby-plugin-theme-ui": "^0.2.43",
     "gatsby-plugin-webpack-size": "^1.0.0",
     "gatsby-remark-prismjs": "^3.3.1",
     "gatsby-source-filesystem": "^2.1.2",
     "gatsby-transformer-sharp": "^2.2.1",
-    "normalize.css": "^8.0.1",
     "prismjs": "^1.16.0",
     "prop-types": "^15.7.2",
     "react-helmet": "^5.2.1",

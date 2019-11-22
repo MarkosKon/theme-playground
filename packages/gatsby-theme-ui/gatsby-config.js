@@ -35,6 +35,7 @@ module.exports = ({
   return {
     siteMetadata,
     plugins: [
+      `gatsby-plugin-theme-ui`,
       `gatsby-plugin-react-helmet`,
       `gatsby-plugin-webpack-size`,
       `gatsby-plugin-emotion`,

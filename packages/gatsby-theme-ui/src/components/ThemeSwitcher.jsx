@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, useColorMode, Box } from "theme-ui";
 import Button from "./Button";
-import theme from "../theme";
+import theme from "../gatsby-plugin-theme-ui";
 
 let themes = ["light"];
 const { modes } = theme.colors;
