@@ -66,7 +66,8 @@ export default {
     m: 0
   },
   img: {
-    width: "100%"
+    width: "100%",
+    borderRadius: "5px"
   },
   a: {
     color: "primary",
