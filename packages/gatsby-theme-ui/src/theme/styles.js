@@ -86,7 +86,7 @@ export default {
   pre: {
     variant: "prism",
     fontFamily: "monospace",
-    fontSize: 3,
+    fontSize: "16px",
     overflowX: "auto",
     p: 3,
     bg: "mute",
