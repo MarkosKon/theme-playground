@@ -1,4 +1,4 @@
-import modes from "@affectionatedoor/gatsby-theme-ui/src/theme/mode-library";
+import modes from "@affectionatedoor/gatsby-theme-ui/src/theme/color-mode-library";
 
 export default {
   ...modes.rebecca,
