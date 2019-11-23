@@ -1,3 +1,5 @@
+// TODO: Colors in code blocks are not accessible.
+// We need separate colors in each color mode for code.
 export default {
   [[
     ".comment",
@@ -28,7 +30,7 @@ export default {
     ".important",
     ".variable"
   ]]: {
-    color: "purple"
+    color: "accent"
   },
   [[".atrule", ".attr-value", ".keyword"]]: {
     color: "primary"
