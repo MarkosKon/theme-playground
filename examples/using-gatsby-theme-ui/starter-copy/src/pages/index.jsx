@@ -30,6 +30,9 @@ const IndexPage = () => (
         <Link to="/slider/">Slider</Link>
       </Styled.li>
       <Styled.li>
+        <Link to="/cards/">Card components</Link>
+      </Styled.li>
+      <Styled.li>
         <Link to="/aos/">Animation on scroll</Link>
       </Styled.li>
       <Styled.li>
