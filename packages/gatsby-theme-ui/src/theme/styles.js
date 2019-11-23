@@ -1,23 +1,21 @@
 // All options: https://theme-ui.com/theme-spec#styles
+import root from "./root";
 
 const heading = {
   fontFamily: "heading",
   lineHeight: "heading",
-  fontWeight: "heading"
+  fontWeight: "heading",
+  mt: 5,
+  mb: 4
 };
 
 export default {
   // Mdx + Styled.key
-  root: {
-    fontFamily: "body",
-    lineHeight: "body",
-    fontWeight: "body",
-    fontSize: 3
-  },
+  root,
   h1: {
     ...heading,
-    fontSize: 40,
-    my: 4
+    fontSize: 6,
+    mt: 6
   },
   h2: {
     ...heading,
@@ -25,19 +23,50 @@ export default {
   },
   h3: {
     ...heading,
-    fontSize: 3
+    fontSize: 4
   },
   h4: {
     ...heading,
-    fontSize: 2
+    fontSize: 3
   },
   h5: {
     ...heading,
-    fontSize: 1
+    fontSize: 3,
+    mt: 4,
+    mb: 3
   },
   h6: {
     ...heading,
-    fontSize: 0
+    fontSize: 3,
+    mt: 4,
+    mb: 3
+  },
+  p: {
+    fontSize: 3,
+    m: 0,
+    mb: 4
+  },
+  ul: {
+    pl: 4,
+    m: 0,
+    mb: 4,
+    "& ul, & ol": {
+      m: 0
+    }
+  },
+  ol: {
+    pl: 4,
+    m: 0,
+    mb: 4,
+    "& ul, & ol": {
+      m: 0
+    }
+  },
+  li: {
+    m: 0
+  },
+  img: {
+    width: "100%"
   },
   a: {
     color: "primary",
@@ -45,16 +74,26 @@ export default {
       color: "accent"
     }
   },
+  blockquote: {
+    fontStyle: "italic",
+    fontSize: 3,
+    m: 0,
+    mb: 4,
+    pl: 4,
+    borderLeft: t => ` ${t.fontSizes[1]} solid ${t.colors.accent}`
+  },
   pre: {
     variant: "prism",
     fontFamily: "monospace",
-    fontSize: 2,
+    fontSize: 3,
     overflowX: "auto",
     p: 3,
     bg: "mute",
     code: {
       color: "inherit"
-    }
+    },
+    m: 0,
+    mb: 4
   },
   code: {
     fontFamily: "monospace",
@@ -80,12 +119,6 @@ export default {
     borderBottomWidth: "1px",
     borderBottomColor: "rgb(246, 246, 246)"
   }
-  // ul: {
-
-  // },
-  // li: {
-
-  // }
   //   theme-ui components
   //   Container: {
   //     maxWidth: 768,

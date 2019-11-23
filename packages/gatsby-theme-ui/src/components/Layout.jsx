@@ -2,13 +2,13 @@
 import { jsx, Main, Container, Footer, Styled } from "theme-ui";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
-import SkipLink from "./SkipLink";
 
+import SkipLink from "./SkipLink";
 import Header from "./Header";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, className }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitle {
+    query {
       site {
         siteMetadata {
           title
@@ -20,8 +20,10 @@ const Layout = ({ children }) => {
     <Styled.root>
       <SkipLink>Skip to content</SkipLink>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Main sx={{ minHeight: "76vh" }}>
-        <Container id="content">{children}</Container>
+      <Main sx={{ minHeight: "70vh" }}>
+        <Container id="content" className={className}>
+          {children}
+        </Container>
       </Main>
       <Footer sx={{ p: 4 }}>
         {`© ${new Date().getFullYear()}, Built with`}
@@ -37,7 +39,12 @@ const Layout = ({ children }) => {
 };
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string
+};
+
+Layout.defaultProps = {
+  className: null
 };
 
 export default Layout;

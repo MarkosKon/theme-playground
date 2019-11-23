@@ -1,4 +1,4 @@
-import modes from "./mode-library";
+import modes from "./color-mode-library";
 
 export default {
   ...modes.rebecca,
