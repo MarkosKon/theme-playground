@@ -4,7 +4,7 @@ export default {
   primary: "rebeccapurple",
   secondary: "#e75480",
   accent: "orangered",
-  mute: "#f6f6f6",
+  muted: "#f6f6f6",
   highlightCode: "#ff450030",
   modes: {
     dark: {
@@ -13,7 +13,7 @@ export default {
       primary: "#59ab8b",
       secondary: "#66cca4",
       accent: "#00b7ff",
-      mute: "rgba(0, 0, 0, 0.5)",
+      muted: "rgba(0, 0, 0, 0.5)",
       highlightCode: "#00b7ff1f"
     }
   }

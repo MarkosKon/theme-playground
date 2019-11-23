@@ -89,7 +89,7 @@ export default {
     fontSize: "16px",
     overflowX: "auto",
     p: 3,
-    bg: "mute",
+    bg: "muted",
     code: {
       color: "inherit"
     },
@@ -99,7 +99,7 @@ export default {
   code: {
     fontFamily: "monospace",
     fontSize: "inherit",
-    bg: "mute"
+    bg: "muted"
   },
   table: {
     width: "100%",

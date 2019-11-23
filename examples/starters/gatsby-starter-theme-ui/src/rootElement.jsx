@@ -24,7 +24,7 @@ export const wrapRootElement = ({ element }) => (
             --primary: rebeccapurple;
             --secondary: #e75480;
             --accent: orangered;
-            --mute: #f6f6f6;
+            --muted: #f6f6f6;
             --highlight-code: #ff450030;
           }
           body.dark {
@@ -33,7 +33,7 @@ export const wrapRootElement = ({ element }) => (
             --primary: #59ab6d;
             --secondary: #59ab6d;
             --accent: #00b7ff;
-            --mute: rgba(0, 0, 0, 0.5);
+            --muted: rgba(0, 0, 0, 0.5);
             --highlight-code: #00b7ff1f;
           }
 

@@ -5,7 +5,7 @@ export default {
     primary: "rebeccapurple",
     secondary: "#e75480",
     accent: "orangered",
-    mute: "#f6f6f6",
+    muted: "#f6f6f6",
     highlightCode: " #ff450030"
   },
   darkGreen: {
@@ -14,7 +14,7 @@ export default {
     primary: "#59ab6d",
     secondary: "#59ab6d",
     accent: "#00b7ff",
-    mute: "rgba(0, 0, 0, 0.5)",
+    muted: "rgba(0, 0, 0, 0.5)",
     highlightCode: "#00b7ff1f"
   },
   azure: {
@@ -23,7 +23,7 @@ export default {
     primary: "#07c",
     secondary: "#30c",
     accent: "#30c",
-    mute: "#f6f6f6",
+    muted: "#f6f6f6",
     highlightCode: "#3000c01f"
   },
   azureDark: {
@@ -32,7 +32,7 @@ export default {
     primary: "#3cf",
     secondary: "#e0f",
     accent: "#e0f",
-    mute: "#191919",
+    muted: "#191919",
     highlightCode: "#29112c"
   },
   deep: {
@@ -41,7 +41,7 @@ export default {
     primary: "hsl(260, 100%, 80%)",
     secondary: "hsl(290, 100%, 80%)",
     accent: "hsl(290, 100%, 80%)",
-    mute: "hsla(230, 20%, 0%, 20%)",
+    muted: "hsla(230, 20%, 0%, 20%)",
     highlightCode: "hsla(260, 20%, 40%, 20%)"
   },
   future: {
@@ -50,7 +50,7 @@ export default {
     primary: "#11e",
     secondary: "#c0c",
     accent: "#e0e",
-    mute: "#f6f6ff",
+    muted: "#f6f6ff",
     highlightCode: "#e000e01f"
   },
   futureDark: {
@@ -59,7 +59,7 @@ export default {
     primary: "#0fc",
     secondary: "#0cf",
     accent: "#f0c",
-    mute: "#011",
+    muted: "#011",
     highlightCode: "#f000c01f"
   },
   swiss: {
@@ -69,7 +69,7 @@ export default {
     secondary: "hsl(10, 60%, 50%)",
     accent: "hsl(10, 40%, 90%)",
     highlightCode: "hsl(10, 40%, 90%)",
-    mute: "hsl(10, 20%, 94%)"
+    muted: "hsl(10, 20%, 94%)"
   },
   newspaper: {
     text: "#000",
@@ -77,7 +77,7 @@ export default {
     primary: "#000",
     secondary: "#3f3f3f",
     accent: "#3f3f3f",
-    mute: "#e0e0e0",
+    muted: "#e0e0e0",
     highlight: "#9f9f9f"
   }
 };

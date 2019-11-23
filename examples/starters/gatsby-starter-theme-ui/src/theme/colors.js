@@ -4,7 +4,7 @@ const variables = {
   primary: "var(--primary)",
   secondary: "var(--secondary)",
   accent: "var(--accent)",
-  mute: "var(--mute)",
+  muted: "var(--muted)",
   highlightCode: "var(--highlight-code)"
 };
 export default {
