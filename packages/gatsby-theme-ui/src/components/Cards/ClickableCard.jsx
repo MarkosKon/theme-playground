@@ -41,6 +41,7 @@ const ClickableCard = ({ title, text, image, url, tags, gap, className }) => {
           bottom: 0,
           left: 0,
           opacity: 0,
+          borderRadius: "4px",
           boxShadow: theme => `0px 0px 0px 2px ${theme.colors.accent}`,
           transition: "opacity .15s ease-in-out"
         },
@@ -118,12 +119,8 @@ const ClickableCard = ({ title, text, image, url, tags, gap, className }) => {
                 // the card is hovered or focused.
                 onFocus={() => setContainerBoxShadow(false)}
                 onBlur={() => setContainerBoxShadow(true)}
-                onMouseEnter={() => {
-                  setContainerBoxShadow(false);
-                }}
-                onMouseLeave={() => {
-                  setContainerBoxShadow(true);
-                }}
+                onMouseEnter={() => setContainerBoxShadow(false)}
+                onMouseLeave={() => setContainerBoxShadow(true)}
               >
                 {tag}
               </Link>
@@ -142,7 +139,9 @@ const ClickableCard = ({ title, text, image, url, tags, gap, className }) => {
           alt=""
           sx={{
             maxHeight: "256px",
-            borderRadius: 0
+            borderRadius: 0,
+            borderTopLeftRadius: "4px",
+            borderTopRightRadius: "4px"
           }}
         />
       </div>
