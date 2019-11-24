@@ -34,9 +34,11 @@ const SimpleCard = ({ title, text, image, url, gap, className }) => (
         }
       }}
     >
-      <Link to={url}>
-        <Styled.h2 sx={{ my: 3 }}>{title}</Styled.h2>
-      </Link>
+      <Styled.h2 sx={{ my: 3 }}>
+        <Link to={url} sx={{ p: 1 }}>
+          {title}
+        </Link>
+      </Styled.h2>
       <Styled.p sx={{ mb: 0 }}>{text}</Styled.p>
     </Box>
     <div

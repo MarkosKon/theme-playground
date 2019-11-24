@@ -7,7 +7,10 @@ import { graphql } from "gatsby";
 import Layout from "@affectionatedoor/gatsby-theme-ui/src/components/Layout";
 import Link from "@affectionatedoor/gatsby-theme-ui/src/components/Link";
 import SEO from "@affectionatedoor/gatsby-theme-ui/src/components/SEO";
-import SimpleCard from "@affectionatedoor/gatsby-theme-ui/src/components/Cards/SimpleCard";
+import {
+  SimpleCard,
+  ClickableCard
+} from "@affectionatedoor/gatsby-theme-ui/src/components/Cards";
 
 import cat from "../images/cat.jpg";
 
@@ -29,7 +32,7 @@ const CardsPage = ({ data }) => {
       </p>
       {/* eslint-enable */}
       <Link to="/">Go back to the homepage</Link>
-      <Styled.h2>Card # 1</Styled.h2>
+      <Styled.h2>Simple card</Styled.h2>
       <Styled.ul
         sx={{
           listStyle: "none",
@@ -50,6 +53,28 @@ const CardsPage = ({ data }) => {
           />
         ))}
       </Styled.ul>
+      <Styled.h2>Clickable card</Styled.h2>
+      <Styled.ul
+        sx={{
+          listStyle: "none",
+          pl: 0,
+          display: "flex",
+          flexWrap: "wrap",
+          margin: "0 auto",
+          p: `${gap / 2}px`
+        }}
+      >
+        {posts.map(({ title, description, tags }) => (
+          <ClickableCard
+            key={title}
+            title={title}
+            url="/cards/#"
+            tags={tags}
+            text={description}
+            image={cat}
+          />
+        ))}
+      </Styled.ul>
     </Layout>
   );
 };
@@ -63,6 +88,7 @@ export const query = graphql`
           url
           image
           description
+          tags
         }
       }
     }
