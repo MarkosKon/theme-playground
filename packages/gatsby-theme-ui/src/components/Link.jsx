@@ -2,9 +2,11 @@
 import { jsx } from "theme-ui";
 import PropTypes from "prop-types";
 import { Link as GatsbyLink } from "gatsby";
+import { forwardRef } from "react";
 
-const Link = ({ sx, ...restProps }) => (
+const Link = forwardRef(({ sx, ...restProps }, ref) => (
   <GatsbyLink
+    ref={ref}
     sx={{
       display: "inline-block",
       color: "primary",
@@ -18,7 +20,7 @@ const Link = ({ sx, ...restProps }) => (
     }}
     {...restProps}
   />
-);
+));
 
 Link.propTypes = {
   // eslint-disable-next-line
