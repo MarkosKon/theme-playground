@@ -27,6 +27,9 @@ const IndexPage = () => (
     <Styled.h2>Example pages</Styled.h2>
     <Styled.ul>
       <Styled.li>
+        <Link to="/grid/">Grid layout</Link>
+      </Styled.li>
+      <Styled.li>
         <Link to="/slider/">Slider</Link>
       </Styled.li>
       <Styled.li>
