@@ -65,26 +65,31 @@ const GridPage = () => (
       <Styled.h2>
         B. Flexbox grid with custom components from the theme
       </Styled.h2>
-      <Row gutters gutterSize="7.5px">
-        <Column sm="50%" md="calc(100%/3)">
+      <Row
+        gutters
+        gutterSize="7.5px"
+        as="ul"
+        sx={{ listStyle: "none", padding: 0 }}
+      >
+        <Column as="li" sm="50%" md="calc(100%/3)">
           <ColumnContent>1</ColumnContent>
         </Column>
-        <Column sm="50%" md="calc(100%/3)">
+        <Column as="li" sm="50%" md="calc(100%/3)">
           <ColumnContent>2</ColumnContent>
         </Column>
-        <Column sm="50%" md="calc(100%/3)">
+        <Column as="li" sm="50%" md="calc(100%/3)">
           <ColumnContent>3</ColumnContent>
         </Column>
-        <Column sm="50%" md="calc(100%/3)">
+        <Column as="li" sm="50%" md="calc(100%/3)">
           <ColumnContent>4</ColumnContent>
         </Column>
-        <Column sm="50%" md="calc(100%/3)">
+        <Column as="li" sm="50%" md="calc(100%/3)">
           <ColumnContent>5</ColumnContent>
         </Column>
-        <Column sm="50%" md="calc(100%/3)">
+        <Column as="li" sm="50%" md="calc(100%/3)">
           <ColumnContent>6</ColumnContent>
         </Column>
-        <Column>
+        <Column as="li">
           <ColumnContent>7</ColumnContent>
         </Column>
       </Row>
