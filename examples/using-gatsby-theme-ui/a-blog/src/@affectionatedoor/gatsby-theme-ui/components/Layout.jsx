@@ -21,11 +21,11 @@ const Layout = ({ children, className }) => {
     <Styled.root>
       <SkipLink>Skip to content</SkipLink>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Main sx={{ minHeight: "78vh" }}>
+      <Main>
         <Container
           id="content"
           className={className}
-          sx={{ maxWidth: "672px", pt: 0 }}
+          sx={{ maxWidth: "38.5rem", pt: 0 }}
         >
           {children}
         </Container>

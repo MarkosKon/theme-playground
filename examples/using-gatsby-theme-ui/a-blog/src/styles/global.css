@@ -1,0 +1,18 @@
+html,
+body {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 775px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+/* @media print {
+  html,
+  body {
+    font-size: 12px;
+  }
+} */

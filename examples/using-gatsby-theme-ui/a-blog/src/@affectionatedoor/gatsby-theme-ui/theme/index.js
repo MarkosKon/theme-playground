@@ -13,16 +13,18 @@ const theme = {
     body: 1.75,
     heading: 1.1
   },
-  space: [0, 3.5, 7, 14, 28, 56, 84, 112, 224, 448],
-  styles: {
-    ...baseTheme.styles,
-    root: {
-      fontFamily: "body",
-      lineHeight: "body",
-      fontWeight: "body",
-      fontSize: "16px"
-    }
-  }
+  space: [
+    0,
+    "0.21875rem",
+    "0.4375rem",
+    "0.875rem", // 1/2
+    "1.75rem", // rhythm
+    "3.5rem", // x2
+    "5.25rem", // x3
+    "7rem", // x4
+    "14rem",
+    "28rem"
+  ]
 };
 
 export default theme;
