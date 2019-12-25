@@ -10,21 +10,32 @@ const theme = {
     monospace: "Menlo, monospace"
   },
   lineHeights: {
-    body: 1.75,
+    body: null,
     heading: 1.1
   },
   space: [
     0,
-    "0.21875rem",
-    "0.4375rem",
-    "0.875rem", // 1/2
-    "1.75rem", // rhythm
-    "3.5rem", // x2
-    "5.25rem", // x3
-    "7rem", // x4
-    "14rem",
-    "28rem"
-  ]
+    "var(--rhythm-eighth)",
+    "var(--rhythm-quarter)",
+    "var(--rhythm-half)",
+    "var(--rhythm)",
+    "var(--rhythm-x2)",
+    "var(--rhythm-x3)",
+    "var(--rhythm-x4)",
+    "var(--rhythm-x8)",
+    "var(--rhythm-x16)"
+  ],
+  styles: {
+    ...baseTheme.styles,
+    h1: {
+      ...baseTheme.styles.h1,
+      fontSize: [5, 6]
+    },
+    h2: {
+      ...baseTheme.styles.h2,
+      fontSize: [4, 5]
+    }
+  }
 };
 
 export default theme;

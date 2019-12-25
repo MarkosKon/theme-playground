@@ -1,8 +1,10 @@
 /** @jsx jsx */
+import { useEffect } from "react";
 import { jsx, Main, Container, Footer, Styled } from "theme-ui";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
+import cssVars from "css-vars-ponyfill";
 
 import SkipLink from "@affectionatedoor/gatsby-theme-ui/src/components/SkipLink";
 import Header from "@affectionatedoor/gatsby-theme-ui/src/components/Header";
@@ -17,6 +19,22 @@ const Layout = ({ children, className }) => {
       }
     }
   `);
+  // Works only on load.
+  useEffect(() => {
+    cssVars({
+      watch: true,
+      onComplete(cssText, styleElms, cssVariables, benchmark) {
+        console.log("onComplete", {
+          cssText,
+          styleElms,
+          cssVariables,
+          benchmark
+        });
+      }
+    });
+    window.cssVars = cssVars;
+    // cssVars({ watch: true });
+  }, []);
   return (
     <Styled.root>
       <SkipLink>Skip to content</SkipLink>

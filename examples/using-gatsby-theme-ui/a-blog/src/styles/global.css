@@ -1,12 +1,28 @@
+:root {
+  --rhythm: calc(1.75 * 20px);
+  --rhythm-eighth: calc(var(--rhythm) / 8);
+  --rhythm-quarter: calc(var(--rhythm) / 4);
+  --rhythm-half: calc(var(--rhythm) / 2);
+  --rhythm-x2: calc(var(--rhythm) * 2);
+  --rhythm-x3: calc(var(--rhythm) * 3);
+  --rhythm-x4: calc(var(--rhythm) * 4);
+  --rhythm-x8: calc(var(--rhythm) * 8);
+  --rhythm-x16: calc(var(--rhythm) * 16);
+}
 html,
 body {
   font-size: 20px;
+  line-height: 1.75;
 }
 
 @media screen and (max-width: 775px) {
+  :root {
+    --rhythm: calc(1.6 * 16px);
+  }
   html,
   body {
     font-size: 16px;
+    line-height: 1.6;
   }
 }
 
