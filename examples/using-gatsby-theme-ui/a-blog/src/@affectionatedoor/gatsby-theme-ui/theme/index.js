@@ -3,6 +3,10 @@ import scales from "@affectionatedoor/gatsby-theme-ui/src/theme/scale-library";
 
 const theme = {
   ...baseTheme,
+  colors: {
+    ...baseTheme.colors,
+    text: "#212121"
+  },
   fontSizes: scales.golden,
   fonts: {
     body: '"Merriweather", Georgia, serif',
