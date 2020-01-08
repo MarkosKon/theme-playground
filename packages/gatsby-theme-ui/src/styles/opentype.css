@@ -1,0 +1,81 @@
+:root {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+p abbr,
+.small-caps {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-variant-caps: all-small-caps;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum",
+    "smcp", "c2sc";
+  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp",
+    "c2sc";
+}
+.petite-caps {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-variant-caps: all-petite-caps;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum",
+    "pcap", "c2pc";
+  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "pcap",
+    "c2pc";
+}
+p {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+}
+td {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-numeric: lining-nums tabular-nums;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "lnum", "tnum";
+  font-feature-settings: "kern", "liga", "clig", "calt", "lnum", "tnum";
+}
+.fraction {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-numeric: diagonal-fractions;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "frac";
+  font-feature-settings: "kern", "liga", "clig", "calt", "frac";
+}
+.subscript {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-position: sub;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "subs";
+  font-feature-settings: "kern", "liga", "clig", "calt", "subs";
+}
+.superscript {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-position: super;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "sups";
+  font-feature-settings: "kern", "liga", "clig", "calt", "sups";
+}
+.dlig {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig";
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig";
+}
+.swash {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+  font-feature-settings: "kern", "liga", "clig", "calt", "dlig", "swsh";
+}
+/* font-variant-alternates is obsolete */
+.stylistic-alternates {
+  font-kerning: normal;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "salt";
+  font-feature-settings: "kern", "liga", "clig", "calt", "salt";
+}
+/* Don't forget about stylistic sets, e.g: ss04 */
