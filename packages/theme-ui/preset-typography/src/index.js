@@ -93,7 +93,6 @@ const typographyTheme = {
       mb: 3
     },
     p: {
-      colors: "text",
       mt: 0,
       mb: 4
     },
