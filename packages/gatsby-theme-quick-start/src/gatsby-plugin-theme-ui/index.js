@@ -1,3 +1,3 @@
-import theme from "../theme";
+import typographyTheme from "@affectionatedoor/preset-typography";
 
-export default theme;
+export default typographyTheme;

@@ -1,6 +1,6 @@
 # gatsby-theme-quick-start
 
-Set ups Theme UI, MDX, and some common Gatsby plugins like `gatsby-plugin-react-helmet` and sharp image plugins—see `gatsby-config` for more details. Uses a Theme UI [preset]() that focuses on typography. Injects a CSS file that enables [OpenType features]()—you need a font file that supports them to see the difference.
+Set ups Theme UI, MDX, and some common Gatsby plugins like `gatsby-plugin-react-helmet` and sharp image plugins—see `gatsby-config` for more details. Uses a Theme UI [preset](https://github.com/MarkosKon/theme-playground/tree/master/packages/theme-ui/preset-typography) that focuses on typography. Injects a CSS file that enables [OpenType features](https://github.com/MarkosKon/theme-playground/blob/master/packages/gatsby-theme-quick-start/src/styles/opentype.css)—you need a font file that supports them to see the difference.
 
 ## Quick start
 
@@ -39,9 +39,24 @@ Any `md`/`mdx` files inside your `src/pages` will be picked-up.
 
 ## Change the Theme UI theme
 
-To change the Theme UI theme, shadow the `src/theme/index.js` file. In other words, create the following file: `src/@affectionatedoor/gatsby-theme-quick-start/theme/index.js`
+To change the Theme UI theme, create the following file: `/your-site/src/gatsby-plugin-theme-ui/index.js`. This is an example:
 
-This is the [preset]() currently used.
+```jsx
+// src/gatsby-plugin-theme-ui/index.js
+import baseTheme from "@affectionatedoor/gatsby-theme-quick-start/src/gatsby-plugin-theme-ui/index";
+
+const theme = {
+  ...baseTheme,
+  fonts: {
+    ...baseTheme.fonts,
+    heading: "'Georgia', serif"
+  }
+};
+
+export default theme;
+```
+
+This is the [preset](https://github.com/MarkosKon/theme-playground/tree/master/packages/theme-ui/preset-typography) used by the theme.
 
 ## Theme options
 
