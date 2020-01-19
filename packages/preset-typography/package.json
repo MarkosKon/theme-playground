@@ -1,11 +1,12 @@
 {
   "name": "@affectionatedoor/preset-typography",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Theme UI preset that focuses on typography.",
   "main": "src/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/MarkosKon/theme-playground.git"
+    "url": "git://github.com/MarkosKon/theme-playground.git",
+    "directory": "packages/preset-typography"
   }
 }

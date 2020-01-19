@@ -47,6 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/MarkosKon/theme-playground.git"
+    "url": "git://github.com/MarkosKon/theme-playground.git",
+    "directory": "themes/gatsby-theme-ui"
   }
 }

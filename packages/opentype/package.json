@@ -5,6 +5,7 @@
   "main": "index.css",
   "repository": {
     "type": "git",
-    "url": "git://github.com/MarkosKon/theme-playground.git"
+    "url": "git://github.com/MarkosKon/theme-playground.git",
+    "directory": "packages/opentype"
   }
 }
