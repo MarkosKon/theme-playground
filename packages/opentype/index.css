@@ -46,6 +46,7 @@ td {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "frac";
   font-feature-settings: "kern", "liga", "clig", "calt", "frac";
 }
+sub,
 .subscript {
   font-kerning: normal;
   font-variant-ligatures: common-ligatures contextual;
@@ -53,6 +54,7 @@ td {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "subs";
   font-feature-settings: "kern", "liga", "clig", "calt", "subs";
 }
+sup,
 .superscript {
   font-kerning: normal;
   font-variant-ligatures: common-ligatures contextual;

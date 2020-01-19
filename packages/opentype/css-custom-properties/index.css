@@ -1,0 +1,166 @@
+/*
+  It doesn't work on IE11 because of custom properties.
+  It's inspired from https://wakamaifondue.com/. Use it if
+  you don't need to support IE11.
+*/
+:root {
+  --kern: "kern" on;
+  --calt: "calt" on;
+  --liga: "liga" on;
+  --clig: "clig" on;
+  /* ligatures + alternates*/
+  --dlig: "dlig" off;
+  --swsh: "swsh" off;
+  --salt: "salt" off;
+  /* numbers */
+  --onum: "onum" off;
+  --pnum: "pnum" off;
+  --lnum: "lnum" off;
+  --tnum: "tnum" off;
+  --frac: "frac" off;
+  --subs: "subs" off;
+  --sups: "sups" off;
+  /* caps */
+  --smcp: "smcp" off;
+  --c2sc: "c2sc" off;
+  --pcap: "pcap" off;
+  --c2pc: "c2pc" off;
+}
+* {
+  /* Use prefixes (-webkit, -moz, -ms)? */
+  font-feature-settings: var(--kern), var(--calt), var(--liga), var(--clig),
+    var(--dlig), var(--swsh), var(--onum), var(--pnum), var(--lnum), var(--tnum),
+    var(--frac), var(--subs), var(--sups), var(--smcp), var(--c2sc), var(--pcap),
+    var(--c2pc), var(--salt);
+}
+@supports (font-kerning: normal) {
+  :root {
+    /*
+      If the browser supports font-kerning or font-variant-*,
+      deactivate the relevant font-feature-settings. I don't
+      feel that is necessary, so I leave it commented out.
+    */
+    /* --kern: "___";     */
+    font-kerning: normal;
+  }
+}
+@supports (font-variant-ligatures: common-ligatures contextual) {
+  :root {
+    /* --liga: "___";
+    --clig: "___"; */
+    font-variant-ligatures: common-ligatures contextual;
+  }
+}
+abbr,
+.small-caps {
+  --onum: "onum" on;
+  --pnum: "pnum" on;
+  --smcp: "smcp" on;
+  --c2sc: "c2sc" on;
+}
+@supports (font-variant-numeric: oldstyle-nums proportional-nums) and
+  (font-variant-caps: all-small-caps) {
+  abbr,
+  .small-caps {
+    /* --onum: "___";
+    --pnum: "___";
+    --smcp: "___";
+    --c2sc: "___"; */
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    font-variant-caps: all-small-caps;
+  }
+}
+.petite-caps {
+  --onum: "onum" on;
+  --pnum: "pnum" on;
+  --pcap: "pcap" on;
+  --c2pc: "c2pc" on;
+}
+@supports (font-variant-caps: all-petite-caps) and
+  (font-variant-numeric: oldstyle-nums proportional-nums) {
+  .petite-caps {
+    /* --onum: "___";
+  --pnum: "___";
+  --pcap: "___";
+  --c2pc: "___"; */
+    font-variant-caps: all-petite-caps;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+  }
+}
+p {
+  --onum: "onum" on;
+  --pnum: "pnum" on;
+}
+@supports (font-variant-numeric: oldstyle-nums proportional-nums) {
+  p {
+    /* --onum: "___";
+  --pnum: "___"; */
+    font-variant-numeric: oldstyle-nums proportional-nums;
+  }
+}
+td {
+  --lnum: "lnum" on;
+  --tnum: "tnum" on;
+}
+@supports (font-variant-numeric: lining-nums tabular-nums) {
+  td {
+    /* --lnum: "___";
+    --tnum: "___"; */
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+}
+.fraction {
+  --frac: "frac" on;
+}
+@supports (font-variant-numeric: diagonal-fractions) {
+  .fraction {
+    /* --frac: "___"; */
+    font-variant-numeric: diagonal-fractions;
+  }
+}
+sub,
+.subscript {
+  --subs: "subs" on;
+}
+@supports (font-variant-position: sub) {
+  sub,
+  .subscript {
+    /* --subs: "___"; */
+    font-variant-position: sub;
+  }
+}
+sup,
+.superscript {
+  --sups: "sups" on;
+}
+@supports (font-variant-position: super) {
+  sup,
+  .superscript {
+    /* --sups: "___"; */
+    font-variant-position: super;
+  }
+}
+.dlig,
+.swash {
+  --dlig: "dlig" on;
+}
+@supports (
+  font-variant-ligatures: common-ligatures contextual discretionary-ligatures
+) {
+  .dlig,
+  .swash {
+    /* --dlig: "___"; */
+    font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+  }
+}
+/*
+  font-variant-alternates is obsolete according to MDN,
+  so no supports feature queries for the following.
+*/
+.swash {
+  --swsh: "swsh" on;
+}
+.stylistic-alternates {
+  --salt: "salt" on;
+}
+/* Don't forget about stylistic sets, ss01-ss?? */

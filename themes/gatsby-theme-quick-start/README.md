@@ -1,6 +1,6 @@
 # gatsby-theme-quick-start
 
-Set ups Theme UI, MDX, and some common Gatsby plugins like `gatsby-plugin-react-helmet` and sharp image plugins—see `gatsby-config` for more details. Uses a Theme UI [preset](https://github.com/MarkosKon/theme-playground/tree/master/packages/theme-ui/preset-typography) that focuses on typography. Injects a CSS file that enables [OpenType features](https://github.com/MarkosKon/theme-playground/blob/master/packages/gatsby-theme-quick-start/src/styles/opentype.css)—you need a font file that supports them to see the difference.
+Set ups Theme UI, MDX, and some common Gatsby plugins like `gatsby-plugin-react-helmet` and sharp image plugins—see `gatsby-config` for more details. Uses a Theme UI [preset](https://github.com/MarkosKon/theme-playground/tree/master/packages/theme-ui/preset-typography) that focuses on typography. The theme also uses [@affectionatedoor/opentype]() that enables OpenType features—you need a font file that supports them to see the difference.
 
 ## Quick start
 
