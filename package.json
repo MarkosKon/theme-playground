@@ -3,10 +3,11 @@
   "private": true,
   "workspaces": [
     "packages/**",
+    "themes/**",
     "examples/**"
   ],
   "scripts": {
-    "lint": "eslint --ext js,jsx examples packages",
+    "lint": "eslint --ext js,jsx examples packages themes",
     "format": "yarn lint --fix",
     "w:info": "yarn workspaces info",
     "we3": "yarn workspace use-theme-default-starter",
