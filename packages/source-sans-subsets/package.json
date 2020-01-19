@@ -1,0 +1,10 @@
+{
+  "name": "@affectionatedoor/source-sans-subsets",
+  "version": "1.0.0",
+  "description": "Unicode subsets for Source Sans typeface",
+  "main": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MarkosKon/theme-playground.git"
+  }
+}
