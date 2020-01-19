@@ -1,4 +1,4 @@
-Uses [@affectionatedoor/gatsby-theme-quick-start]() and includes some extra components.
+Uses [@affectionatedoor/gatsby-theme-quick-start](https://github.com/MarkosKon/theme-playground/tree/master/themes/gatsby-theme-quick-start) and includes some extra components.
 
 ## Quick start
 
@@ -30,11 +30,4 @@ The following components are available:
 - Rellax (rellax)
 - Sal (sal.js. Needs extra config, see the source code for instructions.)
 
-Components like the cards are not 100% reusable, so if you want to alter something, you can shadow them.
-
-## TODO
-
-- The card should not have flex stuff in styles.
-- It can be a list by default but, if emotion allows it, add an `as` prop to change that.
-- See if it works with `gatsby-image`.
-- If the styles are specific to the preset (see link styles in cards), then it should be a theme and not a package. Now that we fixed the shadowing stuff, it would be easy to create a `quicker` theme.
+**Note:** Components like the cards are not 100% reusable, so if you want to alter something, you can shadow them.

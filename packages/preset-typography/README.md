@@ -56,4 +56,4 @@ This is the [source code](https://github.com/MarkosKon/theme-playground/blob/mas
 
 ## OpenType
 
-If you want to quickly enable OpenType features for your font files, [use this CSS](https://github.com/MarkosKon/theme-playground/blob/master/packages/gatsby-theme-quick-start/src/styles/opentype.css).
+If you want to quickly enable OpenType features for your font files, [use this package](https://github.com/MarkosKon/theme-playground/tree/master/packages/opentype).
