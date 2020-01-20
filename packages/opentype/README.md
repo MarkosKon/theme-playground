@@ -23,14 +23,14 @@ import "@affectionatedoor/opentype/css-variables.css";
 
 ## OpenType features
 
-- root: Kern, common alternates, ligatures, and common ligatures.
-- `p`: old style numbers.
-- `abbr`, `.small-caps`: small caps + old style numbers.
-- `.petite-caps`: petite caps + old style numbers.
-- `td`: tabular numbers.
-- `.fraction`: diagonal fractions.
+- root: Kern + contextual alternates + common and standard ligatures.
+- `p`: Old style numbers.
+- `abbr`, `.small-caps`: Small caps + old style numbers.
+- `.petite-caps`: Petite caps + old style numbers.
+- `td`: Tabular numbers.
+- `.fraction`: Diagonal fractions.
 - `sub`, `.subscript`
 - `sup`, `.superscript`
-- `.dlig`: discretionary ligatures.
-- `.swash`: discretionary ligatures + swashes.
+- `.dlig`: Discretionary ligatures.
+- `.swash`: Discretionary ligatures + swashes.
 - `.stylistic-alternates`: salt.

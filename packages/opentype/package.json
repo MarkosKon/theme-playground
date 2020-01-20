@@ -1,6 +1,6 @@
 {
   "name": "@affectionatedoor/opentype",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSS that enables the OpenType features of your font files.",
   "main": "index.css",
   "repository": {
