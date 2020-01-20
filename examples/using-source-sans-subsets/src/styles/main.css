@@ -1,0 +1,12 @@
+:root {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+main {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.intro {
+  font-style: italic;
+  font-size: 20px;
+}

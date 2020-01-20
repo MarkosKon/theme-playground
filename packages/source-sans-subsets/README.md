@@ -19,9 +19,9 @@ You need loaders for the CSS and font files.
 - Greek extended: U+1F00-1FFF.
 - Rest: U+2000-1F916.
 
-### Supported weights
+### Weights
 
-Regular, Italic, Bold, and BoldItalic.
+Subsets are available for Regular, Italic, Bold, and BoldItalic. I may add more in the future.
 
 ## Usage with Gatsby
 
