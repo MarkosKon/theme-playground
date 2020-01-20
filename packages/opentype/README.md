@@ -18,7 +18,7 @@ import "@affectionatedoor/opentype";
 ## CSS custom properties
 
 ```js
-import "@affectionatedoor/opentype/css-custom-properties";
+import "@affectionatedoor/opentype/css-variables.css";
 ```
 
 ## OpenType features

@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 // import "@affectionatedoor/opentype";
-import "@affectionatedoor/opentype/css-custom-properties/index.css";
+import "@affectionatedoor/opentype/css-variables.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
