@@ -25,7 +25,7 @@ import "@affectionatedoor/source-sans-subsets/variable.css";
 - Greek extended: U+1F00-1FFF.
 - Rest: U+2000-1F916.
 
-### Weights
+## Weights
 
 Subsets are available for Regular, Italic, Bold, and BoldItalic. I may add more in the future. The variable font files have all the weights.
 
