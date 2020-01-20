@@ -8,7 +8,13 @@ Unicode subsets for the Source Sans Pro typeface. The subsets focus only on Lati
 yarn add @affectionatedoor/source-sans-subsets
 ```
 
-You need loaders for the CSS and font files.
+You need loaders for the CSS and font files:
+
+```js
+import "@affectionatedoor/source-sans-subsets";
+// or if you want to use the variable fonts:
+import "@affectionatedoor/source-sans-subsets/variable.css";
+```
 
 ## Subsets
 
@@ -21,7 +27,7 @@ You need loaders for the CSS and font files.
 
 ### Weights
 
-Subsets are available for Regular, Italic, Bold, and BoldItalic. I may add more in the future.
+Subsets are available for Regular, Italic, Bold, and BoldItalic. I may add more in the future. The variable font files have all the weights.
 
 ## Usage with Gatsby
 

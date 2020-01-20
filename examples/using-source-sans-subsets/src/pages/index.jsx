@@ -1,10 +1,28 @@
 import React from "react";
+import { Link } from "gatsby";
 
 export default () => (
   <main>
     <h1>
       OpenType with <abbr>CSS3</abbr> Custom Properties
     </h1>
+    <ul>
+      <li>
+        <Link to="/english-tech-post/">English tech post</Link>
+      </li>
+      <li>
+        <Link to="/greek-tech-post/">Greek tech post</Link>
+      </li>
+      <li>
+        <Link to="/greek-polytonic-text/">Greek polytonic text</Link>
+      </li>
+      <li>
+        <Link to="/phonetic-example/">Phonetic text</Link>
+      </li>
+      <li>
+        <Link to="/variable-fonts/">Variable fonts</Link>
+      </li>
+    </ul>
     <p className="intro">
       A peep at some distant orb has power to raise and purify our thoughts like
       a strain of sacred music, or a noble picture, or a passage from the

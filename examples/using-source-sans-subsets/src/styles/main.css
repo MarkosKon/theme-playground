@@ -1,12 +1,72 @@
+* {
+  box-sizing: border-box;
+}
 :root {
-  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  line-height: 1.45;
+  --rhythm: calc(20px * 1.45);
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 main {
-  max-width: 750px;
+  max-width: calc(var(--rhythm) * 24);
   margin: 0 auto;
+  padding: calc(var(--rhythm) / 2);
 }
-.intro {
-  font-style: italic;
-  font-size: 20px;
+p {
+  margin: 0 0 var(--rhythm);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+  /* border-bottom: 5px solid black; */
+}
+h1,
+h2,
+h3 {
+  /* font-family: "Source Code Pro", monospace; */
+  font-weight: 700;
+  margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
+}
+h1 {
+  font-size: 3.375em;
+}
+h2 {
+  font-size: 2.25em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+ul,
+ol {
+  margin: 0 0 var(--rhythm);
+  padding-left: calc(var(--rhythm) / 2);
+}
+pre,
+code {
+  font-family: "Consolas", "Menlo", "Courier New", Courier, monospace;
+  font-weight: normal;
+  /* font-family: "Source Code Pro", monospace; */
+  border-radius: 3px;
+  /* font-size: 16px; */
+}
+pre {
+  overflow-x: auto;
+  background-color: #ededed;
+}
+pre {
+  margin: 0 0 var(--rhythm);
+  padding: calc(var(--rhythm) / 2);
 }
