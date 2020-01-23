@@ -1,19 +1,17 @@
-# Source Sans subsets
+# Fira Sans subsets
 
-Unicode subsets for the Source Sans Pro typeface. The subsets focus only on Latin + Greek at the moment.
+Unicode subsets for the Fira Sans typeface. The subsets focus only on Latin + Greek at the moment.
 
 ## Install
 
 ```bash
-yarn add @affectionatedoor/source-sans-subsets
+yarn add @affectionatedoor/fira-sans-subsets
 ```
 
 You need loaders for the CSS and font files:
 
 ```js
-import "@affectionatedoor/source-sans-subsets";
-// or if you want to use the variable fonts:
-import "@affectionatedoor/source-sans-subsets/variable.css";
+import "@affectionatedoor/fira-sans-subsets";
 ```
 
 ## Subsets
@@ -29,13 +27,13 @@ import "@affectionatedoor/source-sans-subsets/variable.css";
 
 ## Weights
 
-Subsets are available for Regular, Italic, Bold, and BoldItalic. I may add more in the future. The variable font files have all the weights.
+Subsets are available for Regular, Italic, Bold, and BoldItalic. I may add more in the future.
 
 ## Usage with Gatsby
 
 ```bash
 // gatsby-browser.js
-import @affectionatedoor/source-sans-subsets
+import @affectionatedoor/fira-sans-subsets
 ```
 
 **Important:** Many of the subset files are small, and, as a result, Gatsby will try to inline them as base64 strings in the CSS. This will result into a _huge CSS file_. To go around that, you'll have to [change the inline limit](https://github.com/KyleAMathews/typefaces/issues/104) for Webpack:
