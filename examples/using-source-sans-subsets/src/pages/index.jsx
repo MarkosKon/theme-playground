@@ -3,9 +3,7 @@ import { Link } from "gatsby";
 
 export default () => (
   <main>
-    <h1>
-      OpenType with <abbr>CSS3</abbr> Custom Properties
-    </h1>
+    <h1>Orbs, stars, and twilights</h1>
     <ul>
       <li>
         <Link to="/english-tech-post/">English tech post</Link>
@@ -40,6 +38,55 @@ export default () => (
       of an immense dark sphere, whose upper half was strewn with silver. The
       efficient office for ligature testing.
     </p>
+    <h2>Velocity</h2>
+    <p>
+      As I went on, still gaining velocity, the palpitation of night and day
+      merged into one continuous greyness; the sky took on a wonderful deepness
+      of blue, a splendid luminous color like that of early twilight; the
+      jerking sun became a streak of fire, a brilliant arch, in space; the moon
+      a fainter fluctuating band; and I could see nothing of the stars, save now
+      and then a brighter circle flickering in the blue.
+    </p>
+    <ul>
+      <li>
+        I shall see the face of Mars, anyhow, and that will be a rare
+        experience.
+      </li>
+      <li>
+        {" "}
+        It seems to me that a view of the heavenly bodies through a fine
+        telescope,
+      </li>
+      <li>
+        as well as a tour round the world, should form a part of a liberal
+        education.
+      </li>
+    </ul>
+    <h3>H ευημερία του Ριντάουτ</h3>
+    <p>
+      {" "}
+      Ήταν ένα υπέροχο ταξίδι και μέσω αυτού γνώρισα και αγάπησα πολλούς που δεν
+      θα ξαναδώ ποτέ. Γιατί η ζωή δεν είναι απέραντη και ο καθένας πρέπει να
+      εκπληρώσει το χρέος του για την ασφάλεια και την ευημερία του Ριντάουτ.
+    </p>
+    <blockquote>
+      Παρόλα αυτά, ταξιδεύαμε πολύ, πάντα. Αλλά υπήρχαν τόσα εκατομμύρια και
+      τόσο λίγα χρόνια.
+    </blockquote>
+    <ol>
+      <li>
+        I shall see the face of Mars, anyhow, and that will be a rare
+        experience.
+      </li>
+      <li>
+        It seems to me that a view of the heavenly bodies through a fine
+        telescope,
+      </li>
+      <li>
+        as well as a tour round the world, should form a part of a liberal
+        education.
+      </li>
+    </ol>
     <h2>Tabular data</h2>
     <div id="table-wrapper">
       <table>

@@ -102,7 +102,7 @@ export default () => {
           variants. Description from{" "}
           <a href="https://en.wikipedia.org/wiki/Variable_fonts">
             Wikipedia Variable Fonts
-          </a>
+          </a>{" "}
           page. <code>I&apos;m not variable.</code>
         </p>
       </main>

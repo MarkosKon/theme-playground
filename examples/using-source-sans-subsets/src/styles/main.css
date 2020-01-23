@@ -19,6 +19,11 @@ main {
 p {
   margin: 0 0 var(--rhythm);
 }
+p.intro {
+  font-size: 1.5em;
+  line-height: 1.25;
+  font-style: italic;
+}
 h1,
 h2,
 h3,
@@ -65,8 +70,35 @@ code {
 pre {
   overflow-x: auto;
   background-color: #ededed;
-}
-pre {
   margin: 0 0 var(--rhythm);
   padding: calc(var(--rhythm) / 2);
+}
+/* Tables */
+#table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+table {
+  /* font-size: 16px; */
+  margin: 0 0 var(--rhythm);
+  border-collapse: collapse;
+  border: 2px solid #544c41;
+}
+tbody {
+  vertical-align: middle;
+}
+td,
+th {
+  padding: calc(var(--rhythm) / 4) calc(var(--rhythm) / 2);
+  border: 1px solid #544c41;
+}
+td {
+  text-align: center;
+}
+th {
+  background-color: #ecdbc5;
+  line-height: 1.2;
+}
+caption {
+  padding: calc(var(--rhythm) / 4) calc(var(--rhythm) / 2);
 }
