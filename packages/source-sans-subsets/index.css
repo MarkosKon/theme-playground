@@ -5,7 +5,9 @@
   font-weight: 400;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-latin.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-latin.woff")
+      format("woff");
   unicode-range: U+00-FF;
 }
 @font-face {
@@ -14,7 +16,9 @@
   font-weight: 400;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-rest.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-rest.woff")
+      format("woff");
   unicode-range: U+2000-1F916;
 }
 @font-face {
@@ -23,7 +27,9 @@
   font-weight: 400;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-greek.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-greek.woff")
+      format("woff");
   unicode-range: U+0370-03FF;
 }
 @font-face {
@@ -32,7 +38,9 @@
   font-weight: 400;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-greek-extended.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-greek-extended.woff")
+      format("woff");
   unicode-range: U+1F00-1FFF;
 }
 @font-face {
@@ -41,7 +49,9 @@
   font-weight: 400;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-combining-diacritical-marks.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-combining-diacritical-marks.woff")
+      format("woff");
   unicode-range: U+0300-036F;
 }
 @font-face {
@@ -50,7 +60,9 @@
   font-weight: 400;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-phonetic.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Regular/SourceSansPro-Regular-phonetic.woff")
+      format("woff");
   unicode-range: U+0250-02FF;
 }
 /* Italic */
@@ -60,7 +72,8 @@
   font-weight: 400;
   font-style: italic;
   src: url("./fonts/SourceSansPro-It/SourceSansPro-It-latin.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-It/SourceSansPro-It-latin.woff") format("woff");
   unicode-range: U+00-FF;
 }
 @font-face {
@@ -69,7 +82,8 @@
   font-weight: 400;
   font-style: italic;
   src: url("./fonts/SourceSansPro-It/SourceSansPro-It-rest.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-It/SourceSansPro-It-rest.woff") format("woff");
   unicode-range: U+2000-1F916;
 }
 @font-face {
@@ -78,7 +92,8 @@
   font-weight: 400;
   font-style: italic;
   src: url("./fonts/SourceSansPro-It/SourceSansPro-It-greek.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-It/SourceSansPro-It-greek.woff") format("woff");
   unicode-range: U+0370-03FF;
 }
 @font-face {
@@ -87,7 +102,9 @@
   font-weight: 400;
   font-style: italic;
   src: url("./fonts/SourceSansPro-It/SourceSansPro-It-greek-extended.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-It/SourceSansPro-It-greek-extended.woff")
+      format("woff");
   unicode-range: U+1F00-1FFF;
 }
 @font-face {
@@ -96,7 +113,9 @@
   font-weight: 400;
   font-style: italic;
   src: url("./fonts/SourceSansPro-It/SourceSansPro-It-combining-diacritical-marks.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-It/SourceSansPro-It-combining-diacritical-marks.woff")
+      format("woff");
   unicode-range: U+0300-036F;
 }
 @font-face {
@@ -105,7 +124,9 @@
   font-weight: 400;
   font-style: italic;
   src: url("./fonts/SourceSansPro-It/SourceSansPro-It-phonetic.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-It/SourceSansPro-It-phonetic.woff")
+      format("woff");
   unicode-range: U+0250-02FF;
 }
 /* Bold */
@@ -115,7 +136,9 @@
   font-weight: 700;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-latin.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-latin.woff")
+      format("woff");
   unicode-range: U+00-FF;
 }
 @font-face {
@@ -124,7 +147,9 @@
   font-weight: 700;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-rest.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-rest.woff")
+      format("woff");
   unicode-range: U+2000-1F916;
 }
 @font-face {
@@ -133,7 +158,9 @@
   font-weight: 700;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-greek.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-greek.woff")
+      format("woff");
   unicode-range: U+0370-03FF;
 }
 @font-face {
@@ -142,7 +169,9 @@
   font-weight: 700;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-greek-extended.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-greek-extended.woff")
+      format("woff");
   unicode-range: U+1F00-1FFF;
 }
 @font-face {
@@ -151,7 +180,9 @@
   font-weight: 700;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-combining-diacritical-marks.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-combining-diacritical-marks.woff")
+      format("woff");
   unicode-range: U+0300-036F;
 }
 @font-face {
@@ -160,7 +191,9 @@
   font-weight: 700;
   font-style: normal;
   src: url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-phonetic.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-Bold/SourceSansPro-Bold-phonetic.woff")
+      format("woff");
   unicode-range: U+0250-02FF;
 }
 /* Bold Italic */
@@ -170,7 +203,9 @@
   font-weight: 700;
   font-style: italic;
   src: url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-latin.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-latin.woff")
+      format("woff");
   unicode-range: U+00-FF;
 }
 @font-face {
@@ -179,7 +214,9 @@
   font-weight: 700;
   font-style: italic;
   src: url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-rest.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-rest.woff")
+      format("woff");
   unicode-range: U+2000-1F916;
 }
 @font-face {
@@ -188,7 +225,9 @@
   font-weight: 700;
   font-style: italic;
   src: url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-greek.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-greek.woff")
+      format("woff");
   unicode-range: U+0370-03FF;
 }
 @font-face {
@@ -197,7 +236,9 @@
   font-weight: 700;
   font-style: italic;
   src: url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-greek-extended.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-greek-extended.woff")
+      format("woff");
   unicode-range: U+1F00-1FFF;
 }
 @font-face {
@@ -206,7 +247,9 @@
   font-weight: 700;
   font-style: italic;
   src: url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-combining-diacritical-marks.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-combining-diacritical-marks.woff")
+      format("woff");
   unicode-range: U+0300-036F;
 }
 @font-face {
@@ -215,6 +258,8 @@
   font-weight: 700;
   font-style: italic;
   src: url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-phonetic.woff2")
-    format("woff2");
+      format("woff2"),
+    url("./fonts/SourceSansPro-BoldIt/SourceSansPro-BoldIt-phonetic.woff")
+      format("woff");
   unicode-range: U+0250-02FF;
 }
