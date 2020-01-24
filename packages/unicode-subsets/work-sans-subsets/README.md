@@ -1,6 +1,6 @@
 # Work Sans subsets
 
-Unicode subsets for the Work Sans typeface. Includes italic files that are not available in Google Fonts at the moment.
+Unicode subsets for the Work Sans typeface. Includes italic files that are not available in Google Fonts at the moment. [Source code.](https://github.com/MarkosKon/theme-playground/tree/master/packages/unicode-subsets/work-sans-subsets)
 
 ## Install
 
@@ -26,6 +26,16 @@ html {
 html {
   font-family: "Work Sans Variable", sans-serif;
 }
+```
+
+### No hinting
+
+If hinting is not important to you, or you want smaller files, you can instead use the CSS that points to the files without hinting:
+
+```js
+import "@affectionatedoor/work-sans-subsets/no-hint.css";
+// or
+import "@affectionatedoor/work-sans-subsets/no-hint-variable.css";
 ```
 
 ## Subsets

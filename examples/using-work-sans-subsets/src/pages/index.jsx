@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 export default () => (
   <main>
-    <h1 className="swash"> Orbs, stars, and twilights</h1>
+    <h1 className="dlig stylistic-alternates"> Orbs, stars, and twilights</h1>
     <ul>
       <li>
         <Link to="/english-tech-post/">English tech post</Link>
@@ -12,7 +12,7 @@ export default () => (
         <Link to="/variable-fonts/">Variable fonts</Link>
       </li>
     </ul>
-    <p className="intro swash">
+    <p className="intro">
       A peep at some distant orb has power to raise and purify our thoughts like
       a strain of sacred music, or a noble picture, or a passage from the
       grander poets. It always does 1 good.
