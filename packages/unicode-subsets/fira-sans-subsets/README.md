@@ -8,10 +8,18 @@ Unicode subsets for the Fira Sans typeface. The subsets focus only on Latin + Gr
 yarn add @affectionatedoor/fira-sans-subsets
 ```
 
-You need loaders for the CSS and font files:
+Import the CSS file (you need loaders for the CSS and font files):
 
 ```js
 import "@affectionatedoor/fira-sans-subsets";
+```
+
+Use the font files in CSS:
+
+```css
+html {
+  font-family: "Fira Sans", sans-serif;
+}
 ```
 
 ## Subsets

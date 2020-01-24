@@ -1,6 +1,6 @@
 {
   "name": "@affectionatedoor/fira-sans-subsets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unicode subsets for Fira Sans typeface",
   "main": "index.css",
   "repository": {

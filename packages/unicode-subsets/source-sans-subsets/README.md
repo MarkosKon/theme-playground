@@ -8,12 +8,24 @@ Unicode subsets for the Source Sans Pro typeface. The subsets focus only on Lati
 yarn add @affectionatedoor/source-sans-subsets
 ```
 
-You need loaders for the CSS and font files:
+Import the CSS file (you need loaders for the CSS and font files):
 
 ```js
 import "@affectionatedoor/source-sans-subsets";
 // or if you want to use the variable fonts:
 import "@affectionatedoor/source-sans-subsets/variable.css";
+```
+
+Use the font files in CSS:
+
+```css
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* or if you want to use the variable fonts:  */
+html {
+  font-family: "Source Sans Variable", sans-serif;
+}
 ```
 
 ## Subsets

@@ -8,12 +8,24 @@ Unicode subsets for the Work Sans typeface. Includes italic files that are not a
 yarn add @affectionatedoor/work-sans-subsets
 ```
 
-You need loaders for the CSS and font files:
+Import the CSS file (you need loaders for the CSS and font files):
 
 ```js
 import "@affectionatedoor/work-sans-subsets";
 // or if you want to use the variable fonts:
 import "@affectionatedoor/work-sans-subsets/variable.css";
+```
+
+Use the font files in CSS:
+
+```css
+html {
+  font-family: "Work Sans", sans-serif;
+}
+/* or if you want to use the variable fonts:  */
+html {
+  font-family: "Work Sans Variable", sans-serif;
+}
 ```
 
 ## Subsets
