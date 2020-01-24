@@ -1,0 +1,13 @@
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-all.woff2" --flavor=woff2 --layout-features=* --unicodes=*
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-latin-google-fonts.woff2" --flavor=woff2 --unicodes=U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD --layout-features=*
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-latin.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0000-00FF
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-latin-extended-a.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0100-017F
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-latin-extended-additional.woff2" --flavor=woff2 --layout-features=* --unicodes=U+1E00-1EFF
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-rest.woff2" --flavor=woff2 --layout-features=* --unicodes=U+2000-FB02
+
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-all.woff" --flavor=woff --layout-features=* --unicodes=*
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-latin-google-fonts.woff" --flavor=woff --unicodes=U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD --layout-features=*
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-latin.woff" --flavor=woff --layout-features=* --unicodes=U+0000-00FF
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-latin-extended-a.woff" --flavor=woff --layout-features=* --unicodes=U+0100-017F
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-latin-extended-additional.woff" --flavor=woff --layout-features=* --unicodes=U+1E00-1EFF
+pyftsubset WorkSans-BoldItalic.ttf --output-file="WorkSans-BoldItalic-rest.woff" --flavor=woff --layout-features=* --unicodes=U+2000-FB02
