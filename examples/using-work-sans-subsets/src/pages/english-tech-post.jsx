@@ -99,7 +99,7 @@ const App = () => {
             )}
         </VisibilitySensor>
         </div>
-    <<div>
+    </div>
     );
 };
 

@@ -60,11 +60,20 @@ ol {
 }
 pre,
 code {
-  font-family: "Consolas", "Menlo", "Courier New", Courier, monospace;
+  font-family: "Space Mono", "Consolas", "Menlo", "Courier New", Courier,
+    monospace;
+  /*
+    Removing ligatures and contextual alternates for Space Mono because
+    they don't look good in code.
+  */
+  font-kerning: normal;
+  font-variant-ligatures: none;
+  font-feature-settings: "kern";
   font-weight: normal;
   border-radius: 3px;
 }
 pre {
+  font-size: 18px;
   overflow-x: auto;
   background-color: #ededed;
   margin: 0 0 var(--rhythm);
