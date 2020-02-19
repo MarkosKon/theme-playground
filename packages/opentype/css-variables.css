@@ -87,7 +87,8 @@ abbr,
     font-variant-numeric: oldstyle-nums proportional-nums;
   }
 }
-p {
+p,
+.body-text {
   --onum: "onum" on;
   --pnum: "pnum" on;
 }
