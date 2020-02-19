@@ -25,7 +25,7 @@ abbr,
   font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "pcap",
     "c2pc";
 }
-p {
+p, .body-text {
   font-kerning: normal;
   font-variant-ligatures: common-ligatures contextual;
   font-variant-numeric: oldstyle-nums proportional-nums;
