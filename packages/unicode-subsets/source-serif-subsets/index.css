@@ -1,0 +1,309 @@
+/* Regular */
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-latin.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-latin.woff")
+      format("woff");
+  unicode-range: U+00-FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-latin-extended-a.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-latin-extended-a.woff")
+      format("woff");
+  unicode-range: U+0100-017F;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-greek.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-greek.woff")
+      format("woff");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-cyrillic.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-cyrillic.woff")
+      format("woff");
+  unicode-range: U+0400-04FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-latin-extended-additional.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-latin-extended-additional.woff")
+      format("woff");
+  unicode-range: U+1E00-1EFF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-rest-middle.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-rest-middle.woff")
+      format("woff");
+  unicode-range: U+0180-036F, U+1D00-1DBF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-rest.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Regular/SourceSerifPro-Regular-rest.woff")
+      format("woff");
+  unicode-range: U+2000-1F916;
+}
+/* Italic */
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-It/SourceSerifPro-It-latin.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-It/SourceSerifPro-It-latin.woff") format("woff");
+  unicode-range: U+00-FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-It/SourceSerifPro-It-latin-extended-a.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-It/SourceSerifPro-It-latin-extended-a.woff")
+      format("woff");
+  unicode-range: U+0100-017F;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-It/SourceSerifPro-It-greek.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-It/SourceSerifPro-It-greek.woff") format("woff");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-It/SourceSerifPro-It-cyrillic.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-It/SourceSerifPro-It-cyrillic.woff")
+      format("woff");
+  unicode-range: U+0400-04FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-It/SourceSerifPro-It-latin-extended-additional.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-It/SourceSerifPro-It-latin-extended-additional.woff")
+      format("woff");
+  unicode-range: U+1E00-1EFF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-It/SourceSerifPro-It-rest-middle.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-It/SourceSerifPro-It-rest-middle.woff")
+      format("woff");
+  unicode-range: U+0180-036F, U+1D00-1DBF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-It/SourceSerifPro-It-rest.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-It/SourceSerifPro-It-rest.woff") format("woff");
+  unicode-range: U+2000-1F916;
+}
+/* Bold */
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-latin.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-latin.woff")
+      format("woff");
+  unicode-range: U+00-FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-latin-extended-a.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-latin-extended-a.woff")
+      format("woff");
+  unicode-range: U+0100-017F;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-greek.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-greek.woff")
+      format("woff");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-cyrillic.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-cyrillic.woff")
+      format("woff");
+  unicode-range: U+0400-04FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-latin-extended-additional.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-latin-extended-additional.woff")
+      format("woff");
+  unicode-range: U+1E00-1EFF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-rest-middle.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-rest-middle.woff")
+      format("woff");
+  unicode-range: U+0180-036F, U+1D00-1DBF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-rest.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-Bold/SourceSerifPro-Bold-rest.woff")
+      format("woff");
+  unicode-range: U+2000-1F916;
+}
+/* Bold Italic */
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-latin.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-latin.woff")
+      format("woff");
+  unicode-range: U+00-FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-latin-extended-a.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-latin-extended-a.woff")
+      format("woff");
+  unicode-range: U+0100-017F;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-greek.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-greek.woff")
+      format("woff");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-cyrillic.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-cyrillic.woff")
+      format("woff");
+  unicode-range: U+0400-04FF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-latin-extended-additional.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-latin-extended-additional.woff")
+      format("woff");
+  unicode-range: U+1E00-1EFF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-rest-middle.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-rest-middle.woff")
+      format("woff");
+  unicode-range: U+0180-036F, U+1D00-1DBF;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-rest.woff2")
+      format("woff2"),
+    url("./fonts/SourceSerifPro-BoldIt/SourceSerifPro-BoldIt-rest.woff")
+      format("woff");
+  unicode-range: U+2000-1F916;
+}

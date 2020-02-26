@@ -1,0 +1,11 @@
+{
+  "name": "@affectionatedoor/source-serif-subsets",
+  "version": "1.0.0",
+  "description": "Unicode subsets for the Source Serif Pro typeface",
+  "main": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MarkosKon/theme-playground.git",
+    "directory": "packages/unicode-subsets/source-serif-subsets"
+  }
+}

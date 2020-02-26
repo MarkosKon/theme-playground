@@ -1,0 +1,20 @@
+pyftsubset SourceSerifVariable-Roman.ttf --output-file="SourceSerifVariable-Roman-all.woff2" --flavor=woff2 --layout-features=* --unicodes=* --verbose
+pyftsubset SourceSerifVariable-Roman.ttf --output-file="SourceSerifVariable-Roman-latin-google-fonts.woff2" --flavor=woff2 --unicodes=U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD --layout-features=* --verbose
+pyftsubset SourceSerifVariable-Roman.ttf --output-file="SourceSerifVariable-Roman-latin.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0000-00FF --verbose
+pyftsubset SourceSerifVariable-Roman.ttf --output-file="SourceSerifVariable-Roman-latin-extended-a.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0100-017F --verbose
+pyftsubset SourceSerifVariable-Roman.ttf --output-file="SourceSerifVariable-Roman-greek.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0370-03FF --verbose
+pyftsubset SourceSerifVariable-Roman.ttf --output-file="SourceSerifVariable-Roman-cyrillic.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0400-04FF --verbose
+pyftsubset SourceSerifVariable-Roman.ttf --output-file="SourceSerifVariable-Roman-latin-extended-additional.woff2" --flavor=woff2 --layout-features=* --unicodes=U+1E00-1EFF --verbose
+pyftsubset SourceSerifVariable-Roman.ttf --output-file="SourceSerifVariable-Roman-rest-middle.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0180-036F,U+1D00-1DBF --verbose
+pyftsubset SourceSerifVariable-Roman.ttf --output-file="SourceSerifVariable-Roman-rest.woff2" --flavor=woff2 --layout-features=* --unicodes=U+2000-1F16B --verbose
+
+pyftsubset SourceSerifVariable-Italic.ttf --output-file="SourceSerifVariable-Italic-all.woff2" --flavor=woff2 --layout-features=* --unicodes=* --verbose
+pyftsubset SourceSerifVariable-Italic.ttf --output-file="SourceSerifVariable-Italic-latin-google-fonts.woff2" --flavor=woff2 --unicodes=U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD --layout-features=* --verbose
+pyftsubset SourceSerifVariable-Italic.ttf --output-file="SourceSerifVariable-Italic-latin.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0000-00FF --verbose
+pyftsubset SourceSerifVariable-Italic.ttf --output-file="SourceSerifVariable-Italic-latin-extended-a.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0100-017F --verbose
+pyftsubset SourceSerifVariable-Italic.ttf --output-file="SourceSerifVariable-Italic-greek.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0370-03FF --verbose
+pyftsubset SourceSerifVariable-Italic.ttf --output-file="SourceSerifVariable-Italic-cyrillic.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0400-04FF --verbose
+pyftsubset SourceSerifVariable-Italic.ttf --output-file="SourceSerifVariable-Italic-latin-extended-additional.woff2" --flavor=woff2 --layout-features=* --unicodes=U+1E00-1EFF --verbose
+pyftsubset SourceSerifVariable-Italic.ttf --output-file="SourceSerifVariable-Italic-rest-middle.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0180-036F,U+1D00-1DBF --verbose
+pyftsubset SourceSerifVariable-Italic.ttf --output-file="SourceSerifVariable-Italic-rest.woff2" --flavor=woff2 --layout-features=* --unicodes=U+2000-1F16B --verbose
+

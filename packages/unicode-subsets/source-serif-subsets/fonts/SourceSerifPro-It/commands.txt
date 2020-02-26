@@ -1,0 +1,19 @@
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-all.woff2" --flavor=woff2 --layout-features=* --unicodes=*
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-latin-google-fonts.woff2" --flavor=woff2 --unicodes=U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD --layout-features=*
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-latin.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0000-00FF
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-latin-extended-a.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0100-017F
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-greek.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0370-03FF
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-cyrillic.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0400-04FF
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-latin-extended-additional.woff2" --flavor=woff2 --layout-features=* --unicodes=U+1E00-1EFF
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-rest-middle.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0180-036F,U+1D00-1DBF
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-rest.woff2" --flavor=woff2 --layout-features=* --unicodes=U+2000-1F16B
+
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-all.woff" --flavor=woff --layout-features=* --unicodes=*
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-latin-google-fonts.woff" --flavor=woff --unicodes=U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD --layout-features=*
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-latin.woff" --flavor=woff --layout-features=* --unicodes=U+0000-00FF
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-latin-extended-a.woff" --flavor=woff --layout-features=* --unicodes=U+0100-017F
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-greek.woff" --flavor=woff --layout-features=* --unicodes=U+0370-03FF
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-cyrillic.woff" --flavor=woff --layout-features=* --unicodes=U+0400-04FF
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-latin-extended-additional.woff" --flavor=woff --layout-features=* --unicodes=U+1E00-1EFF
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-rest-middle.woff" --flavor=woff --layout-features=* --unicodes=U+0180-036F,U+1D00-1DBF
+pyftsubset SourceSerifPro-It.ttf --output-file="SourceSerifPro-It-rest.woff" --flavor=woff --layout-features=* --unicodes=U+2000-1F16B
