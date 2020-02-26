@@ -5,10 +5,11 @@
 */
 :root {
   --kern: "kern" on;
-  --calt: "calt" on;
+  /* ligatures */
   --liga: "liga" on;
   --clig: "clig" on;
-  /* ligatures + alternates*/
+  --calt: "calt" on;
+  /* display text */
   --dlig: "dlig" off;
   --swsh: "swsh" off;
   --salt: "salt" off;
@@ -27,27 +28,26 @@
   --c2pc: "c2pc" off;
 }
 * {
-  /* Use prefixes (-webkit, -moz, -ms)? */
-  font-feature-settings: var(--kern), var(--calt), var(--liga), var(--clig),
-    var(--dlig), var(--swsh), var(--onum), var(--pnum), var(--lnum), var(--tnum),
-    var(--frac), var(--subs), var(--sups), var(--smcp), var(--c2sc), var(--pcap),
-    var(--c2pc), var(--salt);
+  font-feature-settings: var(--kern), var(--liga), var(--clig), var(--calt),
+    var(--dlig), var(--swsh), var(--salt), var(--onum), var(--pnum), var(--lnum),
+    var(--tnum), var(--frac), var(--subs), var(--sups), var(--smcp), var(--c2sc),
+    var(--pcap), var(--c2pc);
 }
 @supports (font-kerning: normal) {
   :root {
     /*
       If the browser supports font-kerning or font-variant-*,
-      deactivate the relevant font-feature-settings. I don't
-      feel that is necessary, so I leave it commented out.
+      deactivate the relevant font-feature-settings.
     */
-    /* --kern: "___";     */
+    --kern: "____";
     font-kerning: normal;
   }
 }
 @supports (font-variant-ligatures: common-ligatures contextual) {
   :root {
-    /* --liga: "___";
-    --clig: "___"; */
+    --liga: "____";
+    --clig: "____";
+    --calt: "____";
     font-variant-ligatures: common-ligatures contextual;
   }
 }
@@ -62,10 +62,10 @@ abbr,
   (font-variant-caps: all-small-caps) {
   abbr,
   .small-caps {
-    /* --onum: "___";
-    --pnum: "___";
-    --smcp: "___";
-    --c2sc: "___"; */
+    --onum: "____";
+    --pnum: "____";
+    --smcp: "____";
+    --c2sc: "____";
     font-variant-numeric: oldstyle-nums proportional-nums;
     font-variant-caps: all-small-caps;
   }
@@ -79,10 +79,10 @@ abbr,
 @supports (font-variant-caps: all-petite-caps) and
   (font-variant-numeric: oldstyle-nums proportional-nums) {
   .petite-caps {
-    /* --onum: "___";
-  --pnum: "___";
-  --pcap: "___";
-  --c2pc: "___"; */
+    --onum: "____";
+    --pnum: "____";
+    --pcap: "____";
+    --c2pc: "____";
     font-variant-caps: all-petite-caps;
     font-variant-numeric: oldstyle-nums proportional-nums;
   }
@@ -92,10 +92,16 @@ p,
   --onum: "onum" on;
   --pnum: "pnum" on;
 }
+/*
+  If you want the `font-variant-numberic` to take effect
+  in all cases, you should switch off ALL the numeric
+  variables, because they may cascade.
+*/
 @supports (font-variant-numeric: oldstyle-nums proportional-nums) {
-  p {
-    /* --onum: "___";
-  --pnum: "___"; */
+  p,
+  .body-text {
+    --onum: "____";
+    --pnum: "____";
     font-variant-numeric: oldstyle-nums proportional-nums;
   }
 }
@@ -105,8 +111,8 @@ td {
 }
 @supports (font-variant-numeric: lining-nums tabular-nums) {
   td {
-    /* --lnum: "___";
-    --tnum: "___"; */
+    --lnum: "____";
+    --tnum: "____";
     font-variant-numeric: lining-nums tabular-nums;
   }
 }
@@ -115,29 +121,33 @@ td {
 }
 @supports (font-variant-numeric: diagonal-fractions) {
   .fraction {
-    /* --frac: "___"; */
+    --frac: "____";
     font-variant-numeric: diagonal-fractions;
   }
 }
 sub,
 .subscript {
   --subs: "subs" on;
+  font-size: unset;
+  vertical-align: unset;
 }
 @supports (font-variant-position: sub) {
   sub,
   .subscript {
-    /* --subs: "___"; */
+    --subs: "____";
     font-variant-position: sub;
   }
 }
 sup,
 .superscript {
   --sups: "sups" on;
+  font-size: unset;
+  vertical-align: unset;
 }
 @supports (font-variant-position: super) {
   sup,
   .superscript {
-    /* --sups: "___"; */
+    --sups: "____";
     font-variant-position: super;
   }
 }
@@ -150,7 +160,7 @@ sup,
 ) {
   .dlig,
   .swash {
-    /* --dlig: "___"; */
+    --dlig: "____";
     font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
   }
 }

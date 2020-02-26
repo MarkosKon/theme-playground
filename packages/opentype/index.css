@@ -25,7 +25,8 @@ abbr,
   font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "pcap",
     "c2pc";
 }
-p, .body-text {
+p,
+.body-text {
   font-kerning: normal;
   font-variant-ligatures: common-ligatures contextual;
   font-variant-numeric: oldstyle-nums proportional-nums;
@@ -48,6 +49,8 @@ td {
 }
 sub,
 .subscript {
+  font-size: unset;
+  vertical-align: unset;
   font-kerning: normal;
   font-variant-ligatures: common-ligatures contextual;
   font-variant-position: sub;
@@ -56,6 +59,8 @@ sub,
 }
 sup,
 .superscript {
+  font-size: unset;
+  vertical-align: unset;
   font-kerning: normal;
   font-variant-ligatures: common-ligatures contextual;
   font-variant-position: super;
@@ -77,7 +82,7 @@ sup,
 /* font-variant-alternates is obsolete */
 .stylistic-alternates {
   font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "salt";
   font-feature-settings: "kern", "liga", "clig", "calt", "salt";
 }
-/* Don't forget about stylistic sets, e.g: ss04 */
